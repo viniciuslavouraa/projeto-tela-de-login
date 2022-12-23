@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root {
+    --color1: #E50914; /* netflix */
+    --color2: #E50914; /* login */
+    --color3 :#010104a4 ;/* background-login */
+    --color4: #00000063; /* background-main */
+    --color5: #333333e1;
+    --color6: #FFFFFF; /* branco */
+    --font-netflix: 'Bebas Neue', cursive;
+    --font-padrao: Arial, Helvetica, sans-serif;
+}
+
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/background-image.png);
+    background-position: left center;
+    background-attachment: fixed;
+}
+
+main {
+    height: 98vh;
+    /*background-color: var(--color4); */
+    min-width: 350px;
+    max-width: 1000px;
+}
+
+main h1 {
+    display: inline-block;
+    color: var(--color1);
+    padding: 10px 0 10px 20px;
+    text-align: left;
+    text-shadow: 10px 3px 5px rgb(0 0 0 / 42%);
+    letter-spacing: 5.5px;
+    font: normal bold 3.2em var(--font-netflix);
+}
+
+div.tela-login {
+    background-color: var(--color3);
+    width: 350px;
+    height: 600px;
+    margin: 5px auto 10px auto;
+    border-radius: 5px;
+}
+
+main  h2 {
+    color: white;
+    font: normal bold 2em var(--font-padrao);
+    margin: 0 0 0 20px;
+    padding: 15px;
+}
+
+input {
+    display: block;
+    background-color: var(--color5);
+    width: 250px;
+    height: 45px;
+    margin: auto;
+    border-radius: 5px;
+    border: 0 solid transparent;
+}
+
+input#email {
+    margin: 10px auto 30px auto;
+}
+
+div button#entrar {
+    display: block;
+    background-color: var(--color2);
+    width: 250px;
+    padding: 15px;
+    margin: 30px auto 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0 solid transparent;
+}
+
+button > a#botao-entrar {
+    color: var(--color6);
+    font: normal bold 1.2em var(--font-padrao);
+    text-decoration: none;
+}
+
