@@ -70,6 +70,13 @@ input {
 
 input#email {
     margin: 10px auto 30px auto;
+    color: white;
+    font:normal bold 0.9em arial;
+    
+}
+input#senha {
+    color: white;
+    font-size: 0.9em;
 }
 
 div button#entrar {
@@ -89,3 +96,7 @@ button > a#botao-entrar {
     text-decoration: none;
 }
 
+footer {
+    background-color: var(--color3);
+    padding: 20px;
+}
