@@ -22,9 +22,7 @@
 
 body {
     height: 100vh;
-    background-image: url(images/background-image.png);
-    background-position: left center;
-    background-attachment: fixed;
+    background: var(--color3) url(images/background-image.png) left center fixed;
     background-size: cover;
 }
 
