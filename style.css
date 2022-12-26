@@ -44,10 +44,12 @@ main h1 {
 }
 
 div.tela-login {
+    display: flex;
     background-color: var(--color3);
     width: 350px;
     height: 450px;
     margin: 5px auto 10px auto;
+    flex-direction: column;
     border-radius: 5px;
 }
 
